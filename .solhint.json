@@ -1,0 +1,13 @@
+{
+  "extends": "solhint:default",
+  "rules": {
+    "compiler-version": "off",
+    "avoid-sha3": "off",
+    "reason-string": {
+      "0": "warn",
+      "1": {
+        "maxLength": 64
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@corepass/smart-contracts",
+  "version": "0.1.0",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "ylem-scripts-lint",
+    "build": "ylem-scripts-build",
+    "console": "ylem-scripts-console",
+    "deploy": "ylem-scripts-run --name deploy",
+    "test": "ylem-scripts-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.energy/corepass/smart-contracts.git"
+  },
+  "devDependencies": {
+    "@corepass/ylem-scripts": "^0.1.4",
+    "chai": "^4.3.6",
+    "prettier": "2.6.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
+  },
+  "dependencies": {
+    "@corepass/corebc": "^0.1.8"
+  }
+}
